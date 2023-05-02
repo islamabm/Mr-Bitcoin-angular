@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1683022443618,
-  "index": "https://islamabm.io/Mr-Bitcoin-angular/index.html",
+  "timestamp": 1683023038263,
+  "index": "https://islamabm.github.io/Mr-Bitcoin-angular/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://islamabm.io/Mr-Bitcoin-angular/favicon.ico",
-        "https://islamabm.io/Mr-Bitcoin-angular/index.html",
-        "https://islamabm.io/Mr-Bitcoin-angular/main.084847c223db1b15.js",
-        "https://islamabm.io/Mr-Bitcoin-angular/manifest.webmanifest",
-        "https://islamabm.io/Mr-Bitcoin-angular/polyfills.1cf5a71a38496eb1.js",
-        "https://islamabm.io/Mr-Bitcoin-angular/runtime.1100b04994385034.js",
-        "https://islamabm.io/Mr-Bitcoin-angular/styles.551eb53b5b18e24b.css"
+        "https://islamabm.github.io/Mr-Bitcoin-angular/favicon.ico",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/index.html",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/main.084847c223db1b15.js",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/manifest.webmanifest",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/polyfills.1cf5a71a38496eb1.js",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/runtime.1100b04994385034.js",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/styles.551eb53b5b18e24b.css"
       ],
       "patterns": []
     },
@@ -29,39 +29,39 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/bitcoin-audio/cha-ching-7053.mp3",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/bitcoin-audio/money.mp3",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-128x128.png",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-144x144.png",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-152x152.png",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-192x192.png",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-384x384.png",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-512x512.png",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-72x72.png",
-        "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-96x96.png"
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/bitcoin-audio/cha-ching-7053.mp3",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/bitcoin-audio/money.mp3",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-128x128.png",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-144x144.png",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-152x152.png",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-192x192.png",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-384x384.png",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-512x512.png",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-72x72.png",
+        "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/bitcoin-audio/cha-ching-7053.mp3": "5e5b62ac791b90473d87fbf4c17363a01482cdb3",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/bitcoin-audio/money.mp3": "80181ac6da2a04f4a2aedebc271ef1d7b58e1df4",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://islamabm.io/Mr-Bitcoin-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://islamabm.io/Mr-Bitcoin-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://islamabm.io/Mr-Bitcoin-angular/index.html": "7ba6d793c86b909b098a248062afa7ba668a0886",
-    "https://islamabm.io/Mr-Bitcoin-angular/main.084847c223db1b15.js": "2d595342b24de32ed0a3995e1f0ecd42e66d51d8",
-    "https://islamabm.io/Mr-Bitcoin-angular/manifest.webmanifest": "a5726b605dc8c7ca041f23c77d59883cd42c28be",
-    "https://islamabm.io/Mr-Bitcoin-angular/polyfills.1cf5a71a38496eb1.js": "a2fbd4a2fca8558bfba5e3ce3645b1d866d62e7a",
-    "https://islamabm.io/Mr-Bitcoin-angular/runtime.1100b04994385034.js": "bb612b4b4843684627fdd1d16adeda07920954d6",
-    "https://islamabm.io/Mr-Bitcoin-angular/styles.551eb53b5b18e24b.css": "c83074234190c653a3c67ca06a135020da4106c5"
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/bitcoin-audio/cha-ching-7053.mp3": "5e5b62ac791b90473d87fbf4c17363a01482cdb3",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/bitcoin-audio/money.mp3": "80181ac6da2a04f4a2aedebc271ef1d7b58e1df4",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/index.html": "d3944abfce082f6c179e2f2734cebe63f7bfc491",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/main.084847c223db1b15.js": "2d595342b24de32ed0a3995e1f0ecd42e66d51d8",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/manifest.webmanifest": "a5726b605dc8c7ca041f23c77d59883cd42c28be",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/polyfills.1cf5a71a38496eb1.js": "a2fbd4a2fca8558bfba5e3ce3645b1d866d62e7a",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/runtime.1100b04994385034.js": "bb612b4b4843684627fdd1d16adeda07920954d6",
+    "https://islamabm.github.io/Mr-Bitcoin-angular/styles.551eb53b5b18e24b.css": "c83074234190c653a3c67ca06a135020da4106c5"
   },
   "navigationUrls": [
     {
