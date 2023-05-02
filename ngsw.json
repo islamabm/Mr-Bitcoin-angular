@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1683034960740,
+  "timestamp": 1683035286006,
   "index": "https://islamabm\n.github.io/Mr-Bitcoin-angular/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://islamabm\n.github.io/Mr-Bitcoin-angular/favicon.ico",
         "https://islamabm\n.github.io/Mr-Bitcoin-angular/index.html",
-        "https://islamabm\n.github.io/Mr-Bitcoin-angular/main.65472d9d4876a8cd.js",
+        "https://islamabm\n.github.io/Mr-Bitcoin-angular/main.6687c638d4d4b7ed.js",
         "https://islamabm\n.github.io/Mr-Bitcoin-angular/manifest.webmanifest",
         "https://islamabm\n.github.io/Mr-Bitcoin-angular/polyfills.1cf5a71a38496eb1.js",
         "https://islamabm\n.github.io/Mr-Bitcoin-angular/runtime.1100b04994385034.js",
@@ -56,8 +56,8 @@
     "https://islamabm\n.github.io/Mr-Bitcoin-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://islamabm\n.github.io/Mr-Bitcoin-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://islamabm\n.github.io/Mr-Bitcoin-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://islamabm\n.github.io/Mr-Bitcoin-angular/index.html": "b317557b321b6dd36fe9d346371d22eebb171bcb",
-    "https://islamabm\n.github.io/Mr-Bitcoin-angular/main.65472d9d4876a8cd.js": "892a2ddb201871ac0790bf1f541c5a73915dc092",
+    "https://islamabm\n.github.io/Mr-Bitcoin-angular/index.html": "30993e565181128612b7b3311013901cec60926f",
+    "https://islamabm\n.github.io/Mr-Bitcoin-angular/main.6687c638d4d4b7ed.js": "54194c68e84586926fabc173271f3d142fedb3cc",
     "https://islamabm\n.github.io/Mr-Bitcoin-angular/manifest.webmanifest": "a5726b605dc8c7ca041f23c77d59883cd42c28be",
     "https://islamabm\n.github.io/Mr-Bitcoin-angular/polyfills.1cf5a71a38496eb1.js": "a2fbd4a2fca8558bfba5e3ce3645b1d866d62e7a",
     "https://islamabm\n.github.io/Mr-Bitcoin-angular/runtime.1100b04994385034.js": "bb612b4b4843684627fdd1d16adeda07920954d6",
