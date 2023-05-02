@@ -1,0 +1,44 @@
+<section class="full">
+  <header class="header full">
+    <div class="logo">
+      <img
+        src="https://static.currency.com/img/media/bitcoin.dd8a16.png"
+        alt="Mister-BITCoin logo"
+      />
+      <a routerLink="/">Mister-Bitcoin</a>
+    </div>
+    <!-- <div class="vertical-line"></div>
+    <img
+      src="https://static.currency.com/img/media/bitcoin.dd8a16.png"
+      alt="Your image description"
+      class="captured-image"
+    /> -->
+    <nav [ngClass]="{ 'show-menu': showMenu }">
+      <ul>
+        <li>
+          <a
+            (click)="close()"
+            routerLink="/"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a (click)="close()" routerLink="/about" routerLinkActive="active"
+            >About</a
+          >
+        </li>
+        <li>
+          <a (click)="close()" routerLink="/chart">Chart</a>
+        </li>
+        <li>
+          <a (click)="close()" routerLink="/user">User</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" (click)="toggleMenu()">
+      <span class="svg" [innerHTML]="getMenuIcon()"></span>
+    </button>
+  </header>
+</section>

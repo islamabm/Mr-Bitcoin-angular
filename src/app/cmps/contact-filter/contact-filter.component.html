@@ -1,0 +1,32 @@
+<section class="contact-filter">
+  <a routerLink="/edit" class="add-pet-link">Add contact</a>
+
+  <form action="">
+    <section>
+      <fieldset>
+        <legend htmlFor="name">Name</legend>
+        <input
+          [(ngModel)]="contactFilter.term"
+          (ngModelChange)="onSetFilter($event)"
+          name="term"
+          placeholder="Search by name"
+        />
+      </fieldset>
+    </section>
+    <section>
+      <fieldset>
+        <legend htmlFor="phone">Phone</legend>
+        <input
+          [(ngModel)]="contactFilter.phoneTerm"
+          (ngModelChange)="onSetFilter($event)"
+          name="phoneTerm"
+          placeholder="Search by phone"
+        />
+      </fieldset>
+    </section>
+    <app-record
+      (transcriptChanged)="onTranscriptChanged($event)"
+      (deleteCommand)="onDeleteCommand()"
+    ></app-record>
+  </form>
+</section>

@@ -1,0 +1,18 @@
+<section class="contact-preview">
+  <a routerLink="/contact/{{ contact._id }}" class="data">
+    <p>{{ contact.name }}</p>
+    <img
+      [src]="contact.url"
+      [ngStyle]="{ transform: 'rotate(' + contact.straighten + 'deg)' }"
+      alt=""
+    />
+  </a>
+  <div class="button-container">
+    <button routerLink="/edit/{{ contact._id }}">
+      <span [innerHTML]="getEditIcon()"></span>
+    </button>
+    <button (click)="onRemoveContact()" class="remove-btn">
+      <span [innerHTML]="getTrashIcon()"></span>
+    </button>
+  </div>
+</section>

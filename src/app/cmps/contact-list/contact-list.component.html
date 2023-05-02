@@ -1,0 +1,10 @@
+<section class="contact-list">
+  <ng-container *ngFor="let contact of contacts">
+    <div [@listAnimation]>
+      <contact-preview
+        (remove)="remove.emit($event)"
+        [contact]="contact"
+      ></contact-preview>
+    </div>
+  </ng-container>
+</section>

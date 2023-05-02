@@ -1,0 +1,19 @@
+<section *ngIf="user" class="user-details">
+  <img [src]="user.url" />
+  <h1>Hello {{ user.name }}!</h1>
+  <div class="coins-details">
+    <img
+      src="https://www.mint.ca/globalassets/products/2022/204103-120-oz-pure-gold-coin-everlasting-maple-leaf/204103_obv-1198.png?hash=637883174020000000"
+      alt="coins"
+    />
+    <h1>Coins: {{ user.coins }}</h1>
+  </div>
+  <div class="bitcoin-details">
+    <img
+      src="https://static.currency.com/img/media/bitcoin.dd8a16.png"
+      alt="Bitcoin"
+    />
+    <h1>Bitcoin rate: {{ user.bitcoinRate }}</h1>
+  </div>
+</section>
+<moves-list [moves]="moves"></moves-list>

@@ -1,0 +1,6 @@
+<div
+  *ngFor="let coin of coins"
+  [ngStyle]="coin.style"
+  [ngClass]="{ hidden: coin.hidden }"
+  class="coin"
+></div>

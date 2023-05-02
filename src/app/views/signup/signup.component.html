@@ -1,0 +1,10 @@
+<form class="signup-form" (submit)="doSignup($event)">
+  <h2>Signup</h2>
+  <input
+    type="text"
+    [value]="fullname"
+    placeholder="Your full name"
+    (input)="handleFullnameChange($event)"
+  />
+  <button type="submit">Signup</button>
+</form>

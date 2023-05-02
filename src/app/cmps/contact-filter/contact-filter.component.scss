@@ -1,0 +1,71 @@
+.contact-filter {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  .add-pet-link {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+      background-color: #0069d9;
+    }
+  }
+
+  .add-contact-link {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+      background-color: #0069d9;
+    }
+  }
+
+  section {
+    display: inline-flex; // Add this line
+    margin: 0.5rem;
+    align-items: flex-end; // Add this line to align the input elements vertically
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #007bff;
+    }
+  }
+}

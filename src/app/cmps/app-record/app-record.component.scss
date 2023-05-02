@@ -1,0 +1,37 @@
+.mic {
+  border: none;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 39%;
+  left: 76%;
+}
+
+.mic.active {
+  transform: scale(1.1);
+}
+
+.mic.active:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ff8080;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}

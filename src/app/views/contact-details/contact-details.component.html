@@ -1,0 +1,20 @@
+<div class="container">
+  <section *ngIf="contact$ | async as contact" class="contact-details">
+    <p><strong>Name:</strong>{{ contact.name }}</p>
+    <p><strong>Email:</strong>{{ contact.email }}</p>
+    <p><strong>Phone:</strong>{{ contact.phone }}</p>
+    <div class="image-container">
+      <button class="arrow-btn" (click)="onPrevious()">←</button>
+      <img [src]="contact.url" alt="" />
+      <button class="arrow-btn" (click)="onNext()">→</button>
+    </div>
+    <section class="actions">
+      <button class="back-btn" (click)="onBack()">Back</button>
+    </section>
+  </section>
+  <div class="right-side">
+    <transfer-fund (transferFund)="handleTransferFund($event)"></transfer-fund>
+    <coin-animations [count]="coinCount"></coin-animations>
+    <moves-list [moves]="moves"></moves-list>
+  </div>
+</div>

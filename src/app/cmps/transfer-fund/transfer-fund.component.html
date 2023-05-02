@@ -1,0 +1,10 @@
+<form class="transfer-fund-form" (submit)="onTransferFund($event)">
+  <h2>Transfer Funds</h2>
+  <input
+    type="number"
+    [value]="amount"
+    placeholder="Amount"
+    (input)="handleAmountChange($event)"
+  />
+  <button type="submit">Transfer</button>
+</form>

@@ -1,0 +1,14 @@
+<div *ngIf="moves && moves.length > 0; else noMoves" class="moves-list">
+  <h3>Moves:</h3>
+  <ul>
+    <li *ngFor="let move of moves">
+      <p>To: {{ move.to }}</p>
+      <p>{{ move.at | date : "medium" }}</p>
+      <p>Amount:{{ move.amount }} coins</p>
+    </li>
+  </ul>
+</div>
+
+<ng-template #noMoves>
+  <h3>No Moves</h3>
+</ng-template>

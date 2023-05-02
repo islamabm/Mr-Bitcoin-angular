@@ -1,0 +1,48 @@
+<section class="contact-edit">
+  <form (ngSubmit)="onSaveContact()">
+    <button class="close-button" (click)="onClose()">X</button>
+    <label for="name">Name</label>
+    <input
+      [(ngModel)]="contact.name"
+      type="text"
+      name="name"
+      id="name"
+      placeholder="contact.name"
+    />
+
+    <label for="email">Email</label>
+    <input
+      [(ngModel)]="contact.email"
+      type="text"
+      name="email"
+      id="email"
+      placeholder="contact.email"
+    />
+
+    <label for="phone">Phone</label>
+    <input
+      [(ngModel)]="contact.phone"
+      type="text"
+      name="phone"
+      id="phone"
+      placeholder="contact.phone"
+    />
+    <label for="straighten">Straighten</label>
+    <div class="range-container">
+      <input
+        [(ngModel)]="contact.straighten"
+        type="range"
+        name="straighten"
+        id="straighten"
+        min="0"
+        max="270"
+        step="90"
+        class="range-input"
+        (input)="updateRangeValue($event)"
+      />
+      <div id="range-value" class="range-value">{{ contact.straighten }}°</div>
+    </div>
+
+    <button class="save-btn">Save</button>
+  </form>
+</section>

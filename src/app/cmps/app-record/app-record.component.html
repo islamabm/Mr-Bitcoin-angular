@@ -1,0 +1,5 @@
+<div>
+  <button [ngClass]="{ mic: true, active: isRecording }" (click)="toggleMic()">
+    <span [innerHTML]="getRecordIcon()"></span>
+  </button>
+</div>

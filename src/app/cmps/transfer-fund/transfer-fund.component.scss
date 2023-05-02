@@ -1,0 +1,51 @@
+.transfer-fund-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.transfer-fund-form h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.transfer-fund-form input {
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.transfer-fund-form input:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 0 0.2rem rgba(102, 175, 233, 0.5);
+}
+
+.transfer-fund-form button {
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.transfer-fund-form button:hover {
+  background-color: #46a049;
+}
