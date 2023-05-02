@@ -68,30 +68,6 @@ class Particle {
     this.effect.context.fillStyle = this.color; // Use the particle's color instead of hard-coded value
     this.effect.context.fill();
   }
-
-  // draw(): void {
-  //   const gradient = this.effect.context.createRadialGradient(
-  //     this.x,
-  //     this.y,
-  //     0,
-  //     this.x,
-  //     this.y,
-  //     this.size
-  //   );
-  //   // gradient.addColorStop(0, 'rgba(255, 0, 0, 1)');
-  //   // gradient.addColorStop(0.5, 'rgba(255, 255, 0, 1)');
-  //   // gradient.addColorStop(1, 'rgba(0, 255, 255, 1)');
-  //   // gradient.addColorStop(0, 'rgba(0, 128, 255, 1)');
-  //   // gradient.addColorStop(0.5, 'rgba(0, 0, 255, 1)');
-  //   // gradient.addColorStop(1, 'rgba(0, 0, 128, 1)');
-
-  //   this.effect.context.beginPath();
-  //   this.effect.context.arc(this.x, this.y, this.size, 0, 2 * Math.PI, false);
-  //   this.effect.context.fillStyle = 'rgb(65, 59, 59)';
-  //   this.effect.context.fill();
-  //   // this.effect.context.fillStyle = this.color;
-  //   // this.effect.context.fillRect(this.x, this.y, this.size, this.size);
-  // }
 }
 // draw() {
 

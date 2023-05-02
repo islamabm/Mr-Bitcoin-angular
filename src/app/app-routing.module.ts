@@ -5,9 +5,10 @@ import { HomePageComponent } from './views/home-page/home-page.component';
 import { ContactEditComponent } from './views/contact-edit/contact-edit.component';
 import { ContactDetailsComponent } from './views/contact-details/contact-details.component';
 import { contactResolver } from './services/conatct.resolver';
-import { ChartComponent } from './cmps/chart/chart.component';
+
 import { SignupComponent } from './views/signup/signup.component';
 import { UserComponent } from './views/user/user.component';
+
 const routes: Routes = [
   {
     path: 'user',
@@ -21,10 +22,7 @@ const routes: Routes = [
     path: 'about',
     component: HomePageComponent,
   },
-  {
-    path: 'chart',
-    component: ChartComponent,
-  },
+
   {
     path: 'contact/:id',
     component: ContactDetailsComponent,

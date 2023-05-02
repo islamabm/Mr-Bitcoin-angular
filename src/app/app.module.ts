@@ -13,7 +13,6 @@ import { FormsModule } from '@angular/forms';
 
 import { ContactFilterComponent } from './cmps/contact-filter/contact-filter.component';
 import { UserComponent } from './views/user/user.component';
-import { ChartComponent } from './cmps/chart/chart.component';
 
 import { AppHeaderComponent } from './cmps/app-header/app-header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -38,7 +37,7 @@ import { CoinAnimationComponent } from './cmps/coin-animations/coin-animations.c
     ContactPreviewComponent,
     ContactFilterComponent,
     UserComponent,
-    ChartComponent,
+
     HomePageComponent,
 
     AppHeaderComponent,
