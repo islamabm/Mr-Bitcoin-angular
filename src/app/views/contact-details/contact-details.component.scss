@@ -1,3 +1,9 @@
+$arrow-btn-color: #4285f4;
+$arrow-btn-hover-color: #2a69e0;
+$back-btn-bg-color: #4285f4;
+$back-btn-color: #fff;
+$back-btn-hover-bg-color: #2a69e0;
+
 .contact-details {
   display: flex;
   flex-direction: column;
@@ -13,6 +19,7 @@
   max-width: 400px;
   margin: 0 auto;
   animation: fadeIn 1s ease-in-out;
+
   .image-container {
     display: flex;
     align-items: center;
@@ -25,13 +32,13 @@
     border: none;
     font-size: 2rem;
     cursor: pointer;
-    color: #4285f4;
+    color: $arrow-btn-color;
     opacity: 0.8;
     transition: color 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
     animation: arrowFadeIn 1s ease-in-out forwards;
 
     &:hover {
-      color: #2a69e0;
+      color: $arrow-btn-hover-color;
       opacity: 1;
       transform: scale(1.1);
     }
@@ -62,8 +69,8 @@
     width: 100%;
 
     .back-btn {
-      background-color: #4285f4;
-      color: #fff;
+      background-color: $back-btn-bg-color;
+      color: $back-btn-color;
       font-weight: 700;
       border: none;
       border-radius: 3px;
@@ -73,7 +80,7 @@
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
 
       &:hover {
-        background-color: #2a69e0;
+        background-color: $back-btn-hover-bg-color;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       }
     }
@@ -91,26 +98,10 @@
     transform: translateY(0);
   }
 }
+
 @keyframes arrowFadeIn {
   0% {
     opacity: 0;
     transform: translateY(-20px);
   }
-
-  100% {
-    opacity: 0.8;
-    transform: translateY(0);
-  }
-}
-.container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.right-side {
-  display: flex;
-  flex-direction: column;
 }

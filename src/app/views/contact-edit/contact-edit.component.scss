@@ -1,3 +1,9 @@
+$close-button-font-size: 24px;
+$range-input-height: 5px;
+$range-input-bg: #d3d3d3;
+$range-thumb-dim: 20px;
+$range-thumb-bg: #4caf50;
+
 .contact-edit {
   position: fixed;
   top: 0;
@@ -55,9 +61,10 @@
       right: 10px;
       background-color: transparent;
       border: none;
-      font-size: 24px;
+      font-size: $close-button-font-size;
       cursor: pointer;
     }
+
     .save-btn {
       display: block;
       width: 100%;
@@ -78,6 +85,7 @@
     }
   }
 }
+
 .range-container {
   position: relative;
 }
@@ -86,29 +94,30 @@
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
-  height: 5px;
+  height: $range-input-height;
   border-radius: 2.5px;
-  background: #d3d3d3;
+  background: $range-input-bg;
   outline: none;
 }
 
 .range-input::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 20px;
-  height: 20px;
+  width: $range-thumb-dim;
+  height: $range-thumb-dim;
   border-radius: 50%;
-  background: #4caf50;
+  background: $range-thumb-bg;
   cursor: pointer;
 }
 
 .range-input::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
+  width: $range-thumb-dim;
+  height: $range-thumb-dim;
   border-radius: 50%;
-  background: #4caf50;
+  background: $range-thumb-bg;
   cursor: pointer;
 }
+
 .range-value {
   position: absolute;
   top: -25px;

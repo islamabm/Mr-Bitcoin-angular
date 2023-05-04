@@ -1,11 +1,18 @@
+$background-color: #f0f0f0;
+$font-family: "Roboto", sans-serif;
+$bitcoin-logo-size: 150px;
+$main-content-padding: 1rem;
+$button-bg: #ff9800;
+$button-hover-bg: #e68a00;
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f0f0;
-  font-family: "Roboto", sans-serif;
+  background-color: $background-color;
+  font-family: $font-family;
 }
 
 .header {
@@ -22,7 +29,7 @@
 }
 
 .bitcoin-logo {
-  width: 150px;
+  width: $bitcoin-logo-size;
   height: auto;
   margin-bottom: 2rem;
 }
@@ -35,7 +42,7 @@
   text-align: center;
   width: 100%;
   max-width: 600px;
-  padding: 1rem;
+  padding: $main-content-padding;
   background-color: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -50,7 +57,7 @@
 
 button {
   display: inline-block;
-  background-color: #ff9800;
+  background-color: $button-bg;
   color: #ffffff;
   font-size: 1rem;
   padding: 12px 24px;
@@ -62,5 +69,5 @@ button {
 }
 
 button:hover {
-  background-color: #e68a00;
+  background-color: $button-hover-bg;
 }

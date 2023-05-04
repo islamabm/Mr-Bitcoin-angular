@@ -65,11 +65,10 @@ class Particle {
   draw(): void {
     this.effect.context.beginPath();
     this.effect.context.arc(this.x, this.y, this.size, 0, 2 * Math.PI, false);
-    this.effect.context.fillStyle = this.color; // Use the particle's color instead of hard-coded value
+    this.effect.context.fillStyle = this.color;
     this.effect.context.fill();
   }
 }
-// draw() {
 
 class Effect {
   public canvasWidth: number;
@@ -128,28 +127,6 @@ class Effect {
       textX += charWidth + letterSpacing;
     }
   }
-  // convertToParticles(): void {
-  //   const pixels = this.context.getImageData(
-  //     0,
-  //     0,
-  //     this.canvasWidth,
-  //     this.canvasHeight
-  //   ).data;
-  //   for (let y = 0; y < this.canvasHeight; y += this.gap) {
-  //     for (let x = 0; x < this.canvasWidth; x += this.gap) {
-  //       const index = (y * this.canvasWidth + x) * 4;
-  //       const alpha = pixels[index + 3];
-  //       if (alpha > 0) {
-  //         const red = pixels[index];
-  //         const green = pixels[index + 1];
-  //         const blue = pixels[index + 2];
-  //         const color = `rgb(${red},${green},${blue})`;
-  //         this.particles.push(new Particle(this, x, y, this.gap, color));
-  //       }
-  //     }
-  //   }
-  //   this.context.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
-  // }
   convertToParticles(): void {
     const pixels = this.context.getImageData(
       0,

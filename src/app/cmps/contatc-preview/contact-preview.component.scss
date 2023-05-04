@@ -1,52 +1,58 @@
+$contact-bg-color: #fff;
+$contact-border-color: #ccc;
+$background-image-url: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ8BHmGk230Xg3Uq0E2xjqyGKtnas8Apf26A&usqp=CAU");
+$paragraph-bg-color: #fafafa;
+$button-bg-color: transparent;
+$button-color: #fff;
+
 .contact-preview {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: $contact-bg-color;
+  border: 1px solid $contact-border-color;
   border-radius: 4px;
   padding: 20px;
   display: flex;
 
-  flex-direction: row; /* Changed from column to row */
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ8BHmGk230Xg3Uq0E2xjqyGKtnas8Apf26A&usqp=CAU");
+  background-image: $background-image-url;
   background-repeat: no-repeat;
   background-size: cover;
+
+  p {
+    margin: 0 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: radial-gradient(
+      closest-side,
+      $paragraph-bg-color,
+      transparent
+    );
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: $button-bg-color;
+    color: $button-color;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
 }
 
-.contact-preview p {
-  margin: 0 0 10px;
-  font-weight: bold;
-  font-size: 18px;
-  background-image: radial-gradient(closest-side, #fafafa, transparent);
-}
-// circle
-// ellipse
-// closest-side
-// closest-corner
-// farthest-side
-// farthest-corner
-
-.contact-preview img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.contact-preview button {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  padding: 8px 12px;
-  font-size: 14px;
-  border-radius: 4px;
-  margin-bottom: 5px;
-}
 .button-container {
   display: flex;
   align-items: center;
-  gap: 10px; /* Add space between the buttons */
+  gap: 10px;
 }

@@ -1,59 +1,51 @@
+$bg-color: #f5f5f5;
+$box-shadow-color: rgba(0, 0, 0, 0.1);
+$link-bg-color: #007bff;
+$link-hover-bg-color: #0069d9;
+$link-color: #fff;
+$label-color: #333;
+
 .contact-filter {
   position: relative;
   margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
   padding: 1rem;
   border-radius: 0.25rem;
-  background-color: #f5f5f5;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  .add-pet-link {
-    display: inline-block;
-    margin-right: 1rem;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    background-color: #007bff;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
+  background-color: $bg-color;
+  box-shadow: 0 2px 4px $box-shadow-color;
 
-    &:hover {
-      background-color: #0069d9;
-    }
-  }
-
+  .add-pet-link,
   .add-contact-link {
     display: inline-block;
     margin-right: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
-    background-color: #007bff;
-    color: #fff;
+    background-color: $link-bg-color;
+    color: $link-color;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
 
     &:hover {
-      background-color: #0069d9;
+      background-color: $link-hover-bg-color;
     }
   }
 
   section {
-    display: inline-flex; // Add this line
+    display: inline-flex;
     margin: 0.5rem;
-    align-items: flex-end; // Add this line to align the input elements vertically
+    align-items: flex-end;
   }
 
   label {
     display: block;
     margin-bottom: 0.25rem;
     font-weight: bold;
-    color: #333;
+    color: $label-color;
   }
 
   input[type="text"] {
@@ -61,11 +53,11 @@
     padding: 0.5rem;
     border-radius: 0.25rem;
     border: none;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px $box-shadow-color;
 
     &:focus {
       outline: none;
-      box-shadow: 0 0 0 2px #007bff;
+      box-shadow: 0 0 0 2px $link-bg-color;
     }
   }
 }

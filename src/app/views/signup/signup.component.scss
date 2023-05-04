@@ -1,8 +1,17 @@
+$form-bg-color: #f8f8f8;
+$form-max-width: 400px;
+$form-padding: 20px 40px;
+$input-padding: 10px 15px;
+$input-border: 1px solid #ddd;
+$input-focus-border: #7c83fd;
+$button-bg: #7c83fd;
+$button-hover-bg: #4b4cea;
+
 .signup-form {
-  background-color: #f8f8f8;
-  max-width: 400px;
+  background-color: $form-bg-color;
+  max-width: $form-max-width;
   margin: 50px auto;
-  padding: 20px 40px;
+  padding: $form-padding;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -16,22 +25,22 @@
 
 .signup-form input[type="text"] {
   width: 100%;
-  padding: 10px 15px;
+  padding: $input-padding;
   margin-bottom: 20px;
-  border: 1px solid #ddd;
+  border: $input-border;
   border-radius: 5px;
   font-size: 16px;
   outline: none;
 }
 
 .signup-form input[type="text"]:focus {
-  border-color: #7c83fd;
+  border-color: $input-focus-border;
 }
 
 .signup-form button[type="submit"] {
   width: 100%;
-  padding: 10px 15px;
-  background-color: #7c83fd;
+  padding: $input-padding;
+  background-color: $button-bg;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
@@ -42,5 +51,5 @@
 }
 
 .signup-form button[type="submit"]:hover {
-  background-color: #4b4cea;
+  background-color: $button-hover-bg;
 }

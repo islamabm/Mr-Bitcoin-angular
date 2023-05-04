@@ -1,3 +1,9 @@
+$coin-size: 50px;
+$coin-bg-image: url("https://static.currency.com/img/media/bitcoin.dd8a16.png");
+$animation-name: fall;
+$animation-iteration-count: 1;
+$animation-timing-function: linear;
+
 @keyframes fall {
   0% {
     transform: translateY(-100%);
@@ -9,13 +15,13 @@
 
 .coin {
   position: absolute;
-  width: 50px;
-  height: 50px;
-  background-image: url("https://static.currency.com/img/media/bitcoin.dd8a16.png");
+  width: $coin-size;
+  height: $coin-size;
+  background-image: $coin-bg-image;
   background-size: cover;
-  animation-name: fall;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
+  animation-name: $animation-name;
+  animation-iteration-count: $animation-iteration-count;
+  animation-timing-function: $animation-timing-function;
 }
 
 .hidden {

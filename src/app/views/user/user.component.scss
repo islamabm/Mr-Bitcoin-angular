@@ -1,12 +1,21 @@
+$user-details-bg-color: rgb(173, 173, 173);
+$user-details-padding: 20px;
+$details-margin-top: 20px;
+$details-h1-font-size: 24px;
+$details-h1-margin-left: 10px;
+$img-width: 50px;
+$img-height: 50px;
+$img-margin-right: 10px;
+
 .user-details {
   border: 1px solid black;
-  background-color: rgb(173, 173, 173);
+  background-color: $user-details-bg-color;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: $user-details-padding;
 }
 
 .coins-details {
@@ -18,18 +27,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: $details-margin-top;
 }
 
 .coins-details h1,
 .bitcoin-details h1 {
-  font-size: 24px;
-  margin-left: 10px;
+  font-size: $details-h1-font-size;
+  margin-left: $details-h1-margin-left;
 }
 
 img {
-  width: 50px;
-  height: 50px;
+  width: $img-width;
+  height: $img-height;
   object-fit: contain;
-  margin-right: 10px;
+  margin-right: $img-margin-right;
 }

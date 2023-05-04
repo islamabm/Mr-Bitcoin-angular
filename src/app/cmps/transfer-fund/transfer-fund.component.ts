@@ -7,7 +7,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class TransferFundComponent {
   amount = 0;
-  logoUrl = '../../../assets/bitcoin-audio/money.mp3';
+  logoUrl = 'assets/bitcoin-audio/money.mp3';
   @Output() transferFund = new EventEmitter<number>();
 
   handleAmountChange(event: Event) {

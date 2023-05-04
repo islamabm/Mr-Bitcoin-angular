@@ -1,10 +1,16 @@
+$main-bg-color: #1e201e;
+$white-color: #fff;
+$green-color: rgb(34, 228, 34);
+$transition-time: 0.3s;
+$media-query-breakpoint: 414px;
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #1e201e;
-  color: #fff;
+  background-color: $main-bg-color;
+  color: $white-color;
 
   .logo {
     display: flex;
@@ -27,7 +33,7 @@
       }
 
       a {
-        color: #fff;
+        color: $white-color;
         text-decoration: none;
         font-size: 18px;
         position: relative;
@@ -39,8 +45,8 @@
           bottom: -5px;
           width: 0;
           height: 2px;
-          background-color: #fff;
-          transition: width 0.3s ease-in-out;
+          background-color: $white-color;
+          transition: width $transition-time ease-in-out;
         }
 
         &:hover::after {
@@ -48,7 +54,7 @@
         }
 
         &.active {
-          color: rgb(34, 228, 34);
+          color: $green-color;
 
           &::after {
             display: none;
@@ -67,7 +73,8 @@
     transform: rotate(360deg);
   }
 }
-@media (max-width: 414px) {
+
+@media (max-width: $media-query-breakpoint) {
   .header {
     position: relative;
   }
@@ -90,7 +97,8 @@
     display: block;
   }
 }
-@media (min-width: 415px) {
+
+@media (min-width: $media-query-breakpoint) {
   .menu-toggle {
     display: none;
   }
