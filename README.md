@@ -21,6 +21,8 @@ This application has been built using Angular, a popular web development framewo
 <h1>Contacts page</h1>
 <img src="https://i.postimg.cc/kGdG8YVY/image.png" />
 
+<h1>Contact details</h1>
+<img src="https://i.ibb.co/8d4Z4YH/image.png" />
 
 
 <h1>To run this project locally, first ensure that you have Node.js and npm installed on your machine. Then, follow these steps</h1>
